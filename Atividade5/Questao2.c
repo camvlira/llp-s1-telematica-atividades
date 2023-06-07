@@ -20,7 +20,6 @@ int main() {
             Linhas++;
         }
     }
-
     fclose(arq);
 
     printf("O arquivo possui %i linhas.\n", Linhas);

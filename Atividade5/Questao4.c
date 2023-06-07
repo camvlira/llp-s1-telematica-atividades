@@ -3,7 +3,7 @@
 
 int main() {
     FILE *arq;
-    char nomeArq[50];
+    char nomeArq[100];
     char caract;
     int Vogais = 0;
     int Conso = 0;
@@ -29,7 +29,6 @@ int main() {
             }
         }
     }
-
     fclose(arq);
 
     printf("O arquivo possui %i vogais e %i consoantes.\n", Vogais, Conso);

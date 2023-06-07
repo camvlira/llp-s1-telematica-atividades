@@ -24,7 +24,6 @@ int main() {
     while ((caract = fgetc(arq)) != EOF) {
         printf("%c", caract);
     }
-
     fclose(arq);
 
     return 0;

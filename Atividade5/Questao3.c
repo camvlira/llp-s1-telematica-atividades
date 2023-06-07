@@ -23,7 +23,6 @@ int main() {
             contador++;
         }
     }
-    
     fclose(arq);
     
     printf("O arquivo contém %i vogais.\n", contador);

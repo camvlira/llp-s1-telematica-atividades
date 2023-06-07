@@ -21,7 +21,7 @@ void contarAparenciaDeLetras(const char *nomeArq, int *aparencias) {
     fclose(arq);
 }
 int main() {
-    char nomeArq[100];
+    char nomeArq[50];
     int aparencias[26] = {0};
 
     printf("Digite o nome do arquivo: ");

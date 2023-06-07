@@ -3,7 +3,7 @@
 
 int main() {
     FILE *arq;
-    char nomeArq[30];
+    char nomeArq[100];
     char letra;
     int add = 0;
 
