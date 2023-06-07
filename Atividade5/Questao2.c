@@ -10,7 +10,7 @@ int main() {
 
     arq = fopen(nomeArq, "r");
     if (arq == NULL) {
-        printf("Erro ao abrir o arquivo.\n");
+        printf("Arquivo não encontrado.\nTente novamente.\n");
         return 1;
     }
 
