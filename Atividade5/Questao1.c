@@ -4,7 +4,7 @@ int main() {
     FILE *arq;
     char caract;
 
-   
+
     arq = fopen("arq.txt", "w");
 
    
