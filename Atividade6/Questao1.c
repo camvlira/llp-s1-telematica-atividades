@@ -45,7 +45,7 @@ int main() {
     inicializarmat(matB, linhas, colunas);
     inicializarmat(matC, linhas, colunas);
 
-    calcularmat(matrizA, matB, matC, linhas, colunas);
+    calcularmat(matA, matB, matC, linhas, colunas);
 
     printf("Matriz A:\n");
     mostrarmat(matA, linhas, colunas);
